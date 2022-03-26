@@ -1,0 +1,20 @@
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Dashboard</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <% if (user) { %>
+                    <h2>
+                        Welcome <%= user.name %>
+                    </h2>
+                    <% } %>
+                        <a href="/logout">logout</a>
+            </div>
+        </div>
+    </div>
+</div>
